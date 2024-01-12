@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Oswald&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: black;
+ color: ghostwhite;
+}
+
+#header {
+ width: 100%;
+ height: 100vh;
+ background-position: center;
+ background-size: 80%;
+
+}
+
+.container {
+ padding: 10px 40px;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.logo {
+ width: 300px;
+}
+
+nav ul li {
+ display: inline-block;
+ list-style: none;
+ margin: 10px 20px;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-size: 18px;
+ position: relative;
+}
+
+.devinfo {
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.devpic {
+ width: 40vh;
+}
+
+.info {
+ width: 600px;
+ height: 200px;
+ position: relative;
+ top: 90px;
+}
+
+.hii {
+ font-size: 50px;
+ font-family: 'Oswald', sans-serif;
+}
+
+.name {
+ font-size: 40px;
+}
+
+.work {
+ font-size: 30px;
+ font-family: 'Oswald', sans-serif;
+}
+
+.moreabout {
+ margin-top: 20px;
+}
+
+.buttons button {
+
+ border-radius: 8px;
+ margin: 17px 11px;
+ font-size: 17px;
+ background-color: khaki;
+ width: 134px;
+ color: darkblue;
+}
+
+.buttons button:hover {
+ background-color: plum;
+ color: black;
+}
+
+.contactform {
+ font-family: 'Poppins', sans-serif;
+}
+
+.contactform h1 {
+ font-family: 'Oswald', sans-serif;
+ text-align: center;
+ margin-top: 30px;
+}
+
+.contactform div {
+ padding: 4px 0px;
+ margin-top: 10px;
+ display: flex;
+
+}
+
+div .mb-3 {
+ flex-direction: column;
+}
+
+#emailHelp {
+ color: steelblue;
+ font-size: 10px;
+}
+
+.mb-3 .form-control {
+ width: 20%;
+ margin: 6px 0px;
+ border-radius: 9px;
+ height: 23px;
+}
+
+.form-label {
+ font-size: 20px;
+}
+
+.contactform #form-check {
+ flex-direction: row;
+ margin-top: 9px;
+}
+
+.contactform .form-check input {
+ width: 9px;
+}
+
+.form-check-label {
+ margin: 8px;
+}
+
+.mb-3 .enquiry {
+ width: 500px;
+ height: 50px;
+ border-radius: 10px;
+}
+
+button.submit {
+ background-color: aquamarine;
+ width: 70px;
+}
+button.submit:hover{
+ background-color: burlywood;
+ color: brown;
+}
+.container h1{
+ margin: 37px;
+ color: slategray;
+}
+.social img{
+ height: 70px;
+ margin: 6px;
+}
